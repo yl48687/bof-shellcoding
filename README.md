@@ -1,4 +1,4 @@
-# bof-shellcoding
+# BOF Shellcoding
 The project utilizes the Buffer Overflow Attack Lab (Server Version) provided by SEEDLAB 2.0 as a foundational platform for hands-on exploration and experimentation. This lab is meticulously designed to provide practical experience in understanding and exploiting buffer overflow vulnerabilities within software systems, a critical aspect of modern cybersecurity education.
 
 In this lab, the focus is on delving into the intricacies of buffer overflow vulnerabilities present in four distinct servers, each running software susceptible to such attacks. The overarching goal is to develop strategies to exploit these vulnerabilities effectively, ultimately aiming to gain root privileges on the target servers. Through this immersive experience, participants gain invaluable insights into the mechanisms underlying buffer overflow attacks, including stack layout manipulation and shellcode crafting.
@@ -24,7 +24,8 @@ The modified files according to lab instructions are as follows:
 - `rev_shell.asm`
 The original (non-modified) files can be found in the `Labsetup` directory within this repository.
 
-File Structure and Content
+## File Structure and Content
+```
 bof-shellcoding/
 ├── exploitE.py
 ├── exploitT2.py
@@ -52,3 +53,4 @@ bof-shellcoding/
 ├── Report.pdf
 ├── rev_shell.asm
 └── shellcode_32.asm
+```
